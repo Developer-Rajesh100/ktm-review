@@ -30,7 +30,6 @@ const HomePageReviews = () => {
         "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXQlMjBtYW58ZW58MHx8MHx8&w=1000&q=80",
     },
   ];
-  //   const [name, reviewComment, rating, photo] = FirstThreeReviews;
   return (
     <div>
       {FirstThreeReviews.map((Reviews) => (
@@ -41,16 +40,6 @@ const HomePageReviews = () => {
           rating={Reviews.rating}
           photo={Reviews.photo}
         ></Cart>
-        // <div className="flex">
-        //   <div>
-        //     <img className="weight m-8" src={Reviews.photo} alt="" />
-        //   </div>
-        //   <div>
-        //     <p className="text-base">Name: {Reviews.name}</p>
-        //     <p className="text-base">Review: {Reviews.reviewComment}</p>
-        //     <p className="text-base">Rating: {Reviews.rating}</p>
-        //   </div>
-        // </div>
       ))}
     </div>
   );
