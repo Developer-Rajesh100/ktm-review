@@ -19,7 +19,7 @@ const HomePageReviews = () => {
         "One of the best touring and offroading bike.Best in segment.Before i was riding himalayan.In front of adventure 390 himalayan is look like nothing.",
       rating: 4.5,
       photo:
-        "https://www.mantruckandbus.com/fileadmin/_processed_/7/1/csm_Richard_von_Braunschweig_2a0347f46a.jpeg",
+        "https://media.istockphoto.com/photos/young-handsome-man-with-beard-wearing-casual-sweater-standing-over-picture-id1212702108?k=20&m=1212702108&s=612x612&w=0&h=ZI4gKJi2d1dfi74yTljf4YhulA1nfhD3dcUFGH-NUkY=",
     },
     {
       id: 3,

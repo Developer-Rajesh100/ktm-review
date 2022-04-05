@@ -1,9 +1,10 @@
 import React from "react";
+import AllReviews from "./AllReviews";
 
 const Reviews = () => {
   return (
     <div>
-      <h1>This is Customer Reviews!!!</h1>
+      <AllReviews></AllReviews>
     </div>
   );
 };

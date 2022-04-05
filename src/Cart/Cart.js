@@ -1,15 +1,22 @@
 import React from "react";
 import "./Cart.css";
 const Cart = (props) => {
-  //   const [key, name, comment, rating, photo] = props;
   return (
     <div className="con">
       <div className="container">
         <div className="cart">
           <img src={props.photo} alt="" />
-          <p>Name: {props.name}</p>
-          <p>Review: {props.comment}</p>
-          <p>Rating: {props.rating}</p>
+          <p>
+            <strong>Name:</strong> <i>{props.name}</i>{" "}
+          </p>
+          <p>
+            {" "}
+            <strong>Review:</strong> <i>{props.comment}</i>{" "}
+          </p>
+          <p>
+            {" "}
+            <strong>Rating:</strong> <i>{props.rating}</i>{" "}
+          </p>
         </div>
       </div>
     </div>
