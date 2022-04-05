@@ -12,12 +12,9 @@ const HomePageCustomer = () => {
       <HomePageReviews></HomePageReviews>
       <div className="custom">
         <Link to="/reviews">
-          <a
-            className="mx-6 my-5 px-5 py-2 rounded-md text-base hover:bg-purple-500 hover:rounded-3xl hover:font-bold hover:text-white bg-orange-300"
-            href="#"
-          >
+          <span className="mx-6 my-5 px-5 py-2 rounded-md text-base hover:bg-purple-500 hover:rounded-3xl hover:font-bold hover:text-white bg-orange-300">
             See More
-          </a>
+          </span>
         </Link>
       </div>
     </div>

@@ -10,18 +10,21 @@ const Banner = () => {
           <span className="text-orange-400">KTM</span> Customer Review
         </h1>
         <p className="mb-6 mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, earum
-          voluptas hic minima porro magnam, labore necessitatibus praesentium
-          modi, iusto amet. Molestias repellendus consectetur non, dolor
-          voluptate quasi praesentium officiis necessitatibus corrupti ipsam
-          nostrum neque facere est quis aliquid facilis eligendi ratione aliquam
-          reprehenderit fugiat. Soluta eius odio corporis corrupti unde
-          reiciendis. Omnis similique velit nostrum? Ex maxime voluptates
-          blanditiis accusantium, laboriosam velit tempora quod debitis nam
-          mollitia quibusdam quis explicabo molestias cupiditate fuga voluptate,
-          ullam sint nihil autem ipsa ratione? Nisi doloribus nam tempora iure
-          itaque voluptatibus, quas similique! Maiores exercitationem natus ea
-          commodi numquam odio hic sunt facilis.
+          When the KTM 390 Adventure debuted in fall of 2019, I was immediately
+          intrigued. It looked like a lot of bike for little money. I didn’t get
+          a chance to ride the new model in 2020 (thanks, COVID!), but now I’ve
+          just got back from a 5,400 km trip around Newfoundland on the
+          made-in-India Katoom—one of the longest tests I’ve ever done on a
+          press bike. Here’s what I found out about the machine:
+        </p>
+        <p className="mb-6 mt-6">
+          On the street, the KTM 390 Adventure is a nimble as a barrel racer,
+          with a surprisingly powerful single-cylinder engine. It’s funny,
+          because the engine was my biggest concern when I picked up the bike. I
+          was riding pretty carefully during the 1,000 km break-in period,
+          because the 5-inch TFT dash (easily controlled by a four-button array
+          on the left handlebar) would flash menacingly as I approached 6,500
+          rpm. Heeding the warnings, I backed off on the throttle.
         </p>
         <a
           className="mx-6 my-5 px-5 py-2 rounded-md hover:bg-purple-500 hover:rounded-3xl hover:font-bold hover:text-white bg-orange-300"
