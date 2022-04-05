@@ -43,13 +43,15 @@ const FirstChart = () => {
   ];
 
   return (
-    <div className="total mt-12">
-      <h1 className="text-center mb-12 text-5xl font-bold raj">Sell</h1>
-      <div className="contain">
-        <LineChart width={1180} height={400} data={data}>
-          <Line type="monotone" dataKey="sell" stroke="#8884d8" />
-          <Tooltip />
-        </LineChart>
+    <div>
+      <h1 className="text-center mt-12  text-5xl font-bold raj">Sell</h1>
+      <div className="total">
+        <div className="contain">
+          <LineChart width={1180} height={400} data={data}>
+            <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+            <Tooltip />
+          </LineChart>
+        </div>
       </div>
     </div>
   );

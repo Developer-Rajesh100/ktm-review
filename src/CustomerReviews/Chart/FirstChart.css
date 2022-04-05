@@ -1,6 +1,10 @@
 .contain{
     border: 1.5px solid #520785;
-
     margin: 30px;
-
+}
+/* .sell{
+    text-align: center;
+} */
+.total{
+    margin-top: 0;
 }
