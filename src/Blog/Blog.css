@@ -1,7 +1,9 @@
+.totalContainer{
+    margin-top: 100px;
+}
 .total{
     display: flex;
-    margin-top: 100px;
-    justify-content: space-around
+    justify-content: space-around;
 }
 .firstBlog{
     width: 45%;
