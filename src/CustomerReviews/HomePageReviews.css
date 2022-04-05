@@ -3,6 +3,8 @@
     width: 100px;
     border-radius: 10%;
 }
-/* .font-weight{
-    width: 10px;
-} */
+
+.side{
+    display: flex;
+    justify-content: space-around;
+}

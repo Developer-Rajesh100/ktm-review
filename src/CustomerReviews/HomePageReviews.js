@@ -31,7 +31,7 @@ const HomePageReviews = () => {
     },
   ];
   return (
-    <div>
+    <div className="side">
       {FirstThreeReviews.map((Reviews) => (
         <Cart
           key={Reviews.id}

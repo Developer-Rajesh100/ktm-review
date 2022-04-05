@@ -1,9 +1,9 @@
-import { data } from "autoprefixer";
 import React from "react";
-import { Line, LineChart } from "recharts";
+import "./FirstChart.css";
+import { Line, LineChart, Tooltip } from "recharts";
 
 const FirstChart = () => {
-  const chartData = [
+  const data = [
     {
       month: "Mar",
       investment: 100000,
@@ -41,14 +41,18 @@ const FirstChart = () => {
       revenue: 61000,
     },
   ];
-  return;
-  <LineChart width={1200} height={800} data={data}>
-    <Line
-      type="monotone"
-      dataKey={chartData.investment}
-      stroke="#8884d8"
-    ></Line>
-  </LineChart>;
+
+  return (
+    <div className="total mt-12">
+      <h1 className="text-center mb-12 text-5xl font-bold raj">Sell</h1>
+      <div className="contain">
+        <LineChart width={1180} height={400} data={data}>
+          <Line type="monotone" dataKey="sell" stroke="#8884d8" />
+          <Tooltip />
+        </LineChart>
+      </div>
+    </div>
+  );
 };
 
 export default FirstChart;
