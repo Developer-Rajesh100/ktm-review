@@ -1,6 +1,7 @@
 import React from "react";
 import HomePageReviews from "./HomePageReviews";
 import "./HomePageCustomet.css";
+import { Link } from "react-router-dom";
 
 const HomePageCustomer = () => {
   return (
@@ -10,12 +11,14 @@ const HomePageCustomer = () => {
       </h1>
       <HomePageReviews></HomePageReviews>
       <div className="custom">
-        <a
-          className="mx-6 my-5 px-5 py-2 rounded-md text-base hover:bg-purple-500 hover:rounded-3xl hover:font-bold hover:text-white bg-orange-300"
-          href="#"
-        >
-          See More
-        </a>
+        <Link to="/reviews">
+          <a
+            className="mx-6 my-5 px-5 py-2 rounded-md text-base hover:bg-purple-500 hover:rounded-3xl hover:font-bold hover:text-white bg-orange-300"
+            href="#"
+          >
+            See More
+          </a>
+        </Link>
       </div>
     </div>
   );
